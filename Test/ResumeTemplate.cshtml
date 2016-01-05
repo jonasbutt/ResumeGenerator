@@ -1,0 +1,17 @@
+﻿@model ResumeGenerator.Model.Resume
+
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <h2>@Model.PersonalInformation.FullName</h2>
+    @foreach (var publication in @Model.Publications)
+    {
+        @publication.Title
+    }
+</body>
+</html>

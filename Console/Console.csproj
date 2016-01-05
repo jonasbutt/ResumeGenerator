@@ -52,6 +52,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Generator\Generator.csproj">
+      <Project>{b83adfa0-b0ad-43a8-8389-1105fc93ae82}</Project>
+      <Name>Generator</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Model\Model.csproj">
       <Project>{489ea983-f9a1-431e-8632-050d132d88c5}</Project>
       <Name>Model</Name>
