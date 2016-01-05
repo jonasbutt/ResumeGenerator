@@ -6,8 +6,10 @@ namespace ResumeGenerator.Model
     {
         public string Title { get; set; }
 
-        public DateTime PublicationDate { get; set; }
+        public DateTime Date { get; set; }
 
         public string Publisher { get; set; }
+
+        public Link Link { get; set; }
     }
 }
